@@ -12,10 +12,10 @@ Portfólio pessoal que apresenta minhas habilidades em tecnologia e automação,
 # Mi portafolio
 Portafolio personal que presenta mis habilidades en tecnología y automatización, con proyectos creados a partir de aprendizajes de cursos y práctica real. Incluye un agente de IA integrado con Salesforce que explica mis servicios, responde dudas y crea automáticamente un lead basado en las respuestas del visitante. Al final encontrarás mis redes sociales abiertas para contacto! Aqui está un ejemplo de cómo funciona el Agente IA integrado al portafolio:
 
-1 – Responder al Agente IA que está en la esquina inferior derecha del portafolio (si tarda en responder por inactividad, solo actualiza la página).
+1 – Responder al Agente IA que está en la esquina inferior derecha (si tarda en responder por inactividad, solo actualiza la página).
 <img width="1332" height="623" alt="image" src="https://github.com/user-attachments/assets/6861314c-d7ec-46d0-90e5-ca4ecb1a2125" />
 
-Paso 2 – Automáticamente el agente envía un lead a Salesforce, resumiendo las respuestas dadas por el visitante.
+2 – Automáticamente el agente envía un lead a Salesforce, resumiendo las respuestas dadas por el visitante.
 
 <img width="2535" height="1250" alt="image" src="https://github.com/user-attachments/assets/b3bb42a2-472f-4065-94b4-4b9f7ad3dc7d" />
 
