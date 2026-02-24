@@ -3,10 +3,10 @@ Portfólio pessoal que apresenta minhas habilidades em tecnologia e automação,
 
 Exemplo de como funciona o Agente IA integrado ao portfólio:
 Passo 1 - responder o Agente IA que está no canto inferior direito do Portfólio (se demorar para responder por inatividade, basta atualizar a página).
-<img width="1316" height="616" alt="image" src="https://github.com/user-attachments/assets/adfc25c5-8d0c-4394-9861-b34c7457ccb0" />
+<img src="https://github.com/user-attachments/assets/adfc25c5-8d0c-4394-9861-b34c7457ccb0" width="250" />
 
 Passo 2 - automaticamente o Agente envia um lead ao Salesforce, resumindo as repostas dadas a ele.
-<img width="2539" height="1250" alt="image" src="https://github.com/user-attachments/assets/27af89ea-21cb-4978-b951-5597c5de0bbb" />
+<img src="https://github.com/user-attachments/assets/27af89ea-21cb-4978-b951-5597c5de0bbb" width="250">
 
 
 # Mi portafolio
@@ -14,11 +14,10 @@ Portafolio personal que presenta mis habilidades en tecnología y automatizació
 
 Ejemplo de cómo funciona el Agente IA integrado al portafolio:
 Paso 1 – Responder al Agente IA que está en la esquina inferior derecha del portafolio (si tarda en responder por inactividad, solo actualiza la página).
-<img width="1316" height="616" alt="image" src="https://github.com/user-attachments/assets/adfc25c5-8d0c-4394-9861-b34c7457ccb0" />
+<img src="https://github.com/user-attachments/assets/adfc25c5-8d0c-4394-9861-b34c7457ccb0" width="250" />
 
 Paso 2 – Automáticamente el agente envía un lead a Salesforce, resumiendo las respuestas dadas por el visitante.
-<img width="2539" height="1250" alt="image" src="https://github.com/user-attachments/assets/27af89ea-21cb-4978-b951-5597c5de0bbb" />
-
+<img src="https://github.com/user-attachments/assets/27af89ea-21cb-4978-b951-5597c5de0bbb" width="250">
 
 
 # My portfolio
@@ -26,7 +25,7 @@ Personal portfolio showcasing my skills in technology and automation, with proje
 
 Example how works the AI Agent integrated with Salesforce:
 Step 1 – Reply to the AI Agent located in the bottom-right corner of the portfolio (if it takes time to respond due to inactivity, just refresh the page).
-<img width="1316" height="616" alt="image" src="https://github.com/user-attachments/assets/adfc25c5-8d0c-4394-9861-b34c7457ccb0" />
+<img src="https://github.com/user-attachments/assets/adfc25c5-8d0c-4394-9861-b34c7457ccb0" width="250" />
 
 Step 2 – The agent automatically sends a lead to Salesforce, summarizing the visitor’s answers.
-<img width="2539" height="1250" alt="image" src="https://github.com/user-attachments/assets/27af89ea-21cb-4978-b951-5597c5de0bbb" />
+<img src="https://github.com/user-attachments/assets/27af89ea-21cb-4978-b951-5597c5de0bbb" width="250">
