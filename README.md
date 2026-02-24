@@ -1,8 +1,8 @@
-# Meu portfólio (Português)
-Em meu portfólio coloquei de forma resumida quem é Matheus Araujo, quais são as minhas especialidades e como posso agregar em seu negócio, te ajudando a otimizar o tempo, automatizando as tarefas da sua empresa. Confira também alguns projetos que desenvolvi. Espero que goste!
+# Meu portfólio
+Portfólio pessoal que apresenta minhas habilidades em tecnologia e automação, com projetos desenvolvidos a partir de aprendizados em cursos e estudos práticos. Inclui um agente de IA que explica meus serviços, tira dúvidas e orienta sobre soluções (se demorar para responder por inatividade, basta atualizar a página). Ao final, minhas redes sociais estão abertas para contato!
 
-# Mi portfolio (Español)
-En mi portafolio he resumido quién es Matheus Araujo, cuáles son mis especialidades y cómo puedo aportar en su negocio, ayudandole a optimizar el tiempo, automatizando las tareas de su empresa. Mire también algunos de los proyectos que he desarrollado. Espero que disfrute!
+# Mi portafolio
+Portafolio personal que presenta mis habilidades en tecnología y automatización, con proyectos creados a partir de aprendizajes de cursos y estudios prácticos. Incluye un agente de IA que explica mis servicios, responde dudas y orienta sobre soluciones (si tarda en responder por inactividad, solo actualiza la página). Al final encontrarás mis redes sociales abiertas para contacto!
 
-# My portfolio (English)
-My portfolio briefly presents who Matheus Araujo is, my areas of expertise, and how I can add value to your business by helping you save time through task automation. You can also find some projects I have developed. I hope you enjoy it!
+# My portfolio
+Personal portfolio showcasing my skills in technology and automation, with projects built from course learnings and hands-on practice. It includes an AI agent that explains my services, answers questions, and guides visitors through solutions (if it takes time to reply due to inactivity, just refresh the page). My social media links are available at the end for easy contact!
