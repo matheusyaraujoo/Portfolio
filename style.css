@@ -562,14 +562,30 @@ h1 {
   border: none;
   background: white;
   border-radius: 5px 5px 90px 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: .2s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.discord {
-  margin-top: -.9em;
-  margin-left: -1.2em;
-  fill: #8c9eff;
+.linkedin {
+  width: 60px;
+  height: 60px;
+  margin-left: -10px;
+  fill: #0A66C2;
+  transition: 0.2s;
+}
+
+.card4:hover {
+  transform: translateY(-3px);
+  box-shadow: rgba(0,0,0,0.25) 0px 6px 14px;
+}
+
+.card4:hover .linkedin {
+  fill: #ffffff;
 }
 
 .card1:hover {
@@ -605,11 +621,7 @@ h1 {
 .card4:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #8c9eff;
-}
-
-.card4:hover .discord {
-  fill: white;
+  background-color: #0A66C2;
 }
 
 @keyframes fade-up {
