@@ -21,27 +21,44 @@ def get_salesforce_connection():
         'client_secret': consumer_secret
     }
 
+from simple_salesforce import Salesforce
+import requests
+
+def get_salesforce_connection():
     try:
         response = requests.post(token_url, data=payload)
         response.raise_for_status()
         auth_data = response.json()
-        return Salesforce(instance_url=auth_data['instance_url'], session_id=auth_data['access_token'])
+
+        sf = Salesforce(
+            instance_url=auth_data['instance_url'],
+            session_id=auth_data['access_token']
+        )
+
+        # adiciona header para ativar regra de atribuição
+        sf.headers.update({'Sforce-Auto-Assign': 'TRUE'})
+
+        return sf
+
     except Exception as e:
         print(f"❌ Erro Auth Salesforce: {e}")
         return None
+
+
+def criar_lead_salesforce(nome, contato, resumo):
+    sf = get_salesforce_connection()
+    if not sf:
+        return False
 
 def criar_lead_salesforce(nome, contato, resumo):
     sf = get_salesforce_connection()
     if not sf: return False
 
     try:
-        # Separa Nome e Sobrenome
         partes_nome = nome.strip().split(' ')
         first_name = partes_nome[0]
-        # Se não tiver sobrenome, usa "Lead" para não dar erro
         last_name = ' '.join(partes_nome[1:]) if len(partes_nome) > 1 else 'Lead'
 
-        # DEFESA: Garante que a descrição nunca vá vazia
         if not resumo or len(resumo) < 3 or resumo == "-":
             descricao_final = f"CONTATO: {contato} (Cliente não detalhou a dor)"
         else:
@@ -53,7 +70,7 @@ def criar_lead_salesforce(nome, contato, resumo):
             'Company': 'Portfolio Lead', 
             'Phone': contato,
             'Description': descricao_final,
-            'LeadSource': 'Other', # MUDANÇA CRUCIAL: Usando valor padrão do Salesforce
+            'LeadSource': 'Other',
             'Status': 'Open - Not Contacted'
         }
 
