@@ -74,6 +74,21 @@ def criar_lead_salesforce(nome, contato, resumo):
         first_name = partes_nome[0]
         last_name = ' '.join(partes_nome[1:]) if len(partes_nome) > 1 else 'Lead'
 
+        telefone_final = contato
+        email_final = ""
+
+        if "@" in contato:
+            if "," in contato:
+                partes = contato.split(",")
+                telefone_final = partes[0].strip()
+                email_final = partes[1].strip()
+            else:
+                palavras = contato.split()
+                for palavra in palavras:
+                    if "@" in palavra:
+                        email_final = palavra
+                telefone_final = contato.replace(email_final, "").strip("- ")
+
         if not resumo or len(resumo) < 3 or resumo == "-":
             descricao_final = f"CONTATO: {contato} (Cliente não detalhou a dor)"
         else:
@@ -83,13 +98,14 @@ def criar_lead_salesforce(nome, contato, resumo):
             'FirstName': first_name,
             'LastName': last_name,
             'Company': 'Portfolio Lead', 
-            'Phone': contato,
+            'Phone': telefone_final,       
+            'Email': email_final,          
             'Description': descricao_final,
             'LeadSource': 'Other',
             'Status': 'Open - Not Contacted'
         }
 
-        print(f"📡 Tentando criar lead: {first_name} | {contato}")
+        print(f"📡 Tentando criar lead: {first_name} | Tel: {telefone_final} | Email: {email_final}")
         resultado = sf.Lead.create(novo_lead)
         
         if resultado.get('success'):
