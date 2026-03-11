@@ -6,7 +6,7 @@ Portfólio pessoal que apresenta minhas habilidades em tecnologia e automação,
 
 2 - Automaticamente o Agente envia um lead ao Salesforce, resumindo as repostas dadas a ele.
 
-<img width="2535" height="1250" alt="image" src="https://github.com/user-attachments/assets/d680fc16-8893-4814-b5df-69aa1c4a2e6c" />
+<img width="2548" height="1251" alt="image" src="https://github.com/user-attachments/assets/099bb9ff-d01b-4091-bcb6-a5383ce48736" />
 
 
 # Mi portafolio
@@ -17,7 +17,7 @@ Portafolio personal que presenta mis habilidades en tecnología y automatizació
 
 2 – Automáticamente el agente envía un lead a Salesforce, resumiendo las respuestas dadas por el visitante.
 
-<img width="2535" height="1250" alt="image" src="https://github.com/user-attachments/assets/b3bb42a2-472f-4065-94b4-4b9f7ad3dc7d" />
+<img width="2548" height="1251" alt="image" src="https://github.com/user-attachments/assets/c80afa0c-cd85-4aad-b440-263eccc3757d" />
 
 
 # My portfolio
