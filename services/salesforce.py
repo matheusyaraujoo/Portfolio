@@ -25,6 +25,21 @@ from simple_salesforce import Salesforce
 import requests
 
 def get_salesforce_connection():
+    consumer_key = os.getenv("SF_CONSUMER_KEY")
+    consumer_secret = os.getenv("SF_CONSUMER_SECRET")
+    domain = os.getenv("SF_DOMAIN")
+
+    if not all([consumer_key, consumer_secret, domain]): 
+        print("❌ CONFIG ERRO: Faltam variáveis no .env")
+        return None
+
+    token_url = f"{domain}/services/oauth2/token"
+    payload = {
+        'grant_type': 'client_credentials',
+        'client_id': consumer_key,
+        'client_secret': consumer_secret
+    }
+
     try:
         response = requests.post(token_url, data=payload)
         response.raise_for_status()
@@ -35,7 +50,7 @@ def get_salesforce_connection():
             session_id=auth_data['access_token']
         )
 
-        # adiciona header para ativar regra de atribuição
+        # Adiciona header para ativar regra de atribuição
         sf.headers.update({'Sforce-Auto-Assign': 'TRUE'})
 
         return sf
