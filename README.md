@@ -28,4 +28,4 @@ Personal portfolio showcasing my skills in technology and automation, with proje
 
 2 – The agent automatically sends a lead to Salesforce, summarizing the visitor’s answers.
 
-<img width="2535" height="1250" alt="image" src="https://github.com/user-attachments/assets/537edd0a-7eb0-4062-b5d5-9f023365109e" />
+<img width="2548" height="1251" alt="image" src="https://github.com/user-attachments/assets/a281c551-77ff-436a-8e7d-98fefaf0d7f7" />
